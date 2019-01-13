@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/univer
+    username: postgres
+    password: toor
+    driverClassName: org.postgresql.Driver
+    maximum-pool-size: 5
+  jpa.properties.hibernate.temp.use_jdbc_metadata_defaults: false
